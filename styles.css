@@ -101,3 +101,26 @@ a{
   height: 150px;
   border-radius: 15px;
 }
+/***********SECTION 3 STYLES************/
+.section3{
+  background-color:rgb(235, 227, 227);
+  width:100%;
+}
+.section3-container{
+  margin:0 150px;
+ 
+}
+.section3-contents{
+  display:flex;
+  flex-direction: column;
+  padding:50px;
+}
+.quotes{
+  font-style: italic;
+  font-size:32px;
+} 
+.writer-container{
+  align-self: end;
+  font-size:20px;
+  font-weight: 700;
+}
