@@ -1,6 +1,9 @@
 body{
   margin:0;
 }
+.header-container{
+  background-color: aqua;
+}
 .container{
   display:flex;
   flex-direction: column;
@@ -45,4 +48,9 @@ a{
   width: 100%;
   background-color: aqua;
   border:2px solid blue;
+}
+.section1-container{
+  margin:0 150px;
+  border:3px solid black;
+  display:flex;
 }
