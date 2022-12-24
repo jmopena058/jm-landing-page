@@ -84,8 +84,11 @@ a{
   margin:0 150px;
   display:flex;
   flex-wrap:nowrap;
+  gap:20px;
+  justify-content: center;
 }
 .section2-container>.content{
+  flex-basis: 100%;
   flex-grow:1;
   height: 100%;
   max-width: 150px;
