@@ -1,1 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+ul{
+  display:flex;
+  flex-grow:1;
+  list-style-type: none;
+  gap:20px;
+}
+a{
+  text-decoration: none;
+}
