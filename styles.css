@@ -11,6 +11,8 @@ body{
   display:flex;
   flex-wrap: nowrap;
   height: 50px;
+  border:3px solid orange;
+  margin:0 150px;
 }
 .header>div{ 
   flex-basis: 100%;
