@@ -36,7 +36,13 @@ ul{
   display:flex;
   list-style-type: none;
 }
-
 a{
   text-decoration: none;
+}
+
+/*********SECTION 1 CSS ********/
+.section1{
+  width: 100%;
+  background-color: aqua;
+  border:2px solid blue;
 }
