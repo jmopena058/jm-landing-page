@@ -81,6 +81,7 @@ a{
   width: 100%;
 }
 .section2-container{
+  margin:0 150px;
   display:flex;
   flex-wrap:nowrap;
 }
@@ -88,6 +89,9 @@ a{
   flex-grow:1;
   height: 100%;
   max-width: 150px;
+}
+.section2-header{
+  text-align: center;
 }
 .content img{
   width:100%;
