@@ -2,7 +2,10 @@ body{
   margin:0;
   font-family:roboto, Verdana, serif;
 }
-.header-container,.section1{
+.header-container{
+  position:fixed;
+}
+.header-container,.section1,footer{
   background-color: rgb(47, 47, 53);
 }
 .container{
@@ -12,7 +15,7 @@ body{
 .left-heading{
   color:white;
 }
-.left-description,a{
+.left-description,a,.footer-contents{
   color:rgb(179, 175, 175);
   font-size:20px;
 }
@@ -198,4 +201,16 @@ a:hover{
 .slogan-title{
   font-size:20px;
   font-weight: 700;
+}
+/***********************FOOTER STYLES******************/
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  bottom:0;
+  width: 100%;
+}
+.footer-contents{
+  margin-bottom:40px;
 }
